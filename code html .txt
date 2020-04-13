@@ -1,0 +1,43 @@
+sensor<div class="wrapper">
+  <input type="checkbox" name="nav-check" id="nav-check" />
+  <section class="sec-about" id="sec-about">
+    <div class="content">
+      <p>Aiding disabled people is a crucial issue nowadays.There are many people with disabilities all over the world. The high rate of physical disability in Egypt is considered one of its grand challenges.Blindness, for example, is one of those disabilities; the number of the blind is increasing every year and obviously, their major problem is physical mobility.That is shown i. </p>
+      <p>Many studies have been carried out to solve this problem, such as white cane, which helps in detecting the obstacles, but it is proved to be inefficient in guiding the users.Another study  which gets the pinpoint but expensive and does not graph 1 no. of blinds vs. time in a year have sufficient features to move independently.In our project, we decided to obtain the strength points, avoid the shortcomings and make the project meets the design requirements: cost, shape and meeting the design requirements. We bought cheap efficient materials, we have designed a neat comfortable belt to hold all of the project parts and we made this integrated project for the blind who have special needs.</p>
+    </div>
+  </section>
+  <section class="sec-portfolio" id="sec-portfolio">
+    <div class="row">
+      <img src="img_sensor.jpg" alt="ultrasonic sensor">
+   
+    </div>
+  </section>
+  <section class="sec-contact" id="sec-contact">
+   <div class="content">
+      <p>Disability is one of the worst problems that faces the world in general and Egypt in particular. Globally, there are millions of blind people. By the year 2020, all blind-related numbers will double. According to several studies, mobility is the most urgent problem that faces them. Many electronic travel aids (ETAs) have been proposed. They all share the same operation principle: scanning the environment and displaying the information using hearing and touch senses that Egypt has approximately 1 million people blind and 3 million visually impaired. Nearly 60% of the visually impaired in Egypt have cataract, which requires a simple surgical operation to correct. The prevalence of visual impairment remains high in Egypt, particularly among women. Risk factors for blindness may differ between men and women. There are many inventions were made to help them in their daily life   . For the example in the field of reading like B-Touch Mobile Phone concept is incorporated braille, voice systems and optical reading devices. As all of us know blind people have a big problem of danger when they walk in street or stairs by themselves. Sonic vibrations provide one of the most accurate ways for the visually impaired to get their bearings in an environment, so equipping the end of a walking stick with a little sensor can install confidence even when dealing with stairs and other potentially dangerous scenarios, but this invention has some problems or it does not cover all the danger sides that may face the blind like water that on the street. So in our project we tried to make a belt to be easier to use and it will be cover all the danger sides that may face the blind. Our system that meets design requirements includes two major parts:  A- The first part is based on ultrasonic sensors. By calculating distance using this equation: distance = time × velocity /2, velocity of sound waves = 344m / s ,they could help the blind in : 
+ 1- Finding the best path to his destination, using vibration motors and audible words.
+ 2- Detecting the obstacles .The  more the object get closer, the  more the motor vibrates in the  direction of the obstacles, Fig14  shows the inversely relation  between them with an equation
+3- Detecting the obstacles and changing in the ground level or climbing stairs (vibrations alert)  
+B- The second part works by the voice commands which allows the blind to 
+ 1- Mark his location thanks to GPS, as a result, he can get back to it again, and record the place name by  the voice recognition function. 
+ 2- Get back to his pervious place  using temporary maps by calculating  the distance using Haversine formula[5]  and changes in directions using  orientation sensor.          Haversine formula used for distance calculation between two position 
+3- Look for place and know how far it is 
+4- Send his position in a massage in case of emergency Evidently, we have provided the best solution to ease the blind`s mobility with an integrated tool that eradicates the shortcomings of the pervious solutions. 
+ We applied the STEM principles for example, waves and electrical circuits, which are learning outcomes in physics and electronics scopes, in science ; Arduino C  programming language in technology ; LASER cutter and 3D printer machines in our Fab lab in engineering ; Haversine formula to measure the covered distance in mathematics. For the future plan, we thought of combining an app, that is able to benefit from the GPS more than getting the pinpoint, with 1Sheeld app. That app, using maps systems, will detect the neighboring stations, restaurants, traffic lights, etc. but just by audible words. We have already contacted 1Sheeld makers for that and they welcomed the idea and it will be done in two months</p>
+    </div>
+  </section>
+  <section class="sec-home" id="sec-home">
+    <div class="content">
+      <h1>Blind eyes</h1>
+      <h2><a href="#sec-about">introduction</a>  
+      <h2><a href="#sec-contact">analysis</a>
+    </div>
+  </section>
+  <nav role="navigation">
+    <label for="nav-check"></label>
+    <ul class="navigation">
+      <li><a href="#sec-home">home</a></li>
+      <li><a href="#sec-contact">contact</a></li>
+    </ul>
+  </nav>
+</div>
